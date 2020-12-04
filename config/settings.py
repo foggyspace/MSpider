@@ -44,6 +44,12 @@ USER_AGENT_LISTS = [
     "Mozilla/5.0 (X11; U; Linux x86_64; zh-CN; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10"
 ]
 
+
+DEFAULT_PROXIES_LISTS = [
+    {'https': 'https://127.0.0.1:1080'},
+    {'http': 'http://127.0.0.1:8080'},
+]
+
 # mysql配置信息
 DB_HOST = ''
 DB_PORT = ''

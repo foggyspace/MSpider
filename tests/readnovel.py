@@ -3,11 +3,11 @@ from urllib.parse import urljoin
 
 from pyquery import PyQuery as pq
 
-from MSpider.MSpider.downloader.download import DefaultDownloader
-from MSpider.MSpider.urls import Urls
-from MSpider.MSpider.xparse import Xparse
-from MSpider.MSpider.config.settings import DEFAULT_USER_AGENT
-from MSpider.MSpider.utils.fsave import ItemFile
+from downloader.downloader import DefaultDownloader
+from urls import Urls
+from xparse import Xparse
+from config.settings import DEFAULT_USER_AGENT
+from commons.fsave import ItemFile
 
 
 class SaveMethods(ItemFile):
